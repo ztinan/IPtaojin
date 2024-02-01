@@ -2,9 +2,6 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
-import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
 import zolplayLogo from '~/assets/company/zolplay.png'
 
 type Resume = {
@@ -16,35 +13,14 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '某专利代理公司',
-    title: '专利代理师',
+    company: '深圳市佐玩信息技术有限公司',
+    title: '创始人 CEO',
     logo: zolplayLogo,
-    start: '2020',
+    start: '2021',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
     },
-  },
-  {
-    company: '无',
-    title: '无',
-    logo: vvsLogo,
-    start: '1999',
-    end: '1991',
-  },
-  {
-    company: '无',
-    title: '无',
-    logo: eightNinthsLogo,
-    start: '1233,
-    end: '1233',
-  },
-  {
-    company: '无',
-    title: '无',
-    logo: abletiveLogo,
-    start: '1233',
-    end: '1333',
   },
 ]
 
