@@ -25,27 +25,6 @@ const resume: Resume[] = [
       dateTime: new Date().getFullYear(),
     },
   },
-  {
-    company: 'very very spaceship',
-    title: '软件工程师',
-    logo: vvsLogo,
-    start: '2018',
-    end: '2020',
-  },
-  {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
-  },
 ]
 
 function getRoleDate(date: Resume['start'] | Resume['end'], label = true) {
