@@ -29,22 +29,22 @@ const resume: Resume[] = [
     company: '无',
     title: '无',
     logo: vvsLogo,
-    start: '999',
-    end: '199',
+    start: '1999',
+    end: '1991',
   },
   {
     company: '无',
     title: '无',
     logo: eightNinthsLogo,
-    start: '33,
-    end: '33',
+    start: '1233,
+    end: '1233',
   },
   {
     company: '无',
     title: '无',
     logo: abletiveLogo,
-    start: '33',
-    end: '33',
+    start: '1233',
+    end: '1333',
   },
 ]
 
