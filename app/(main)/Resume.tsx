@@ -13,10 +13,10 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
+    company: '某专利代理公司',
+    title: '国内专利代理人',
     logo: zolplayLogo,
-    start: '2021',
+    start: '2020',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
