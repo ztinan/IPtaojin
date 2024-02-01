@@ -16,14 +16,35 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '某专利代理',
-    title: '专利代理师',
+    company: '深圳市佐玩信息技术有限公司',
+    title: '创始人 CEO',
     logo: zolplayLogo,
-    start: '2020',
+    start: '2021',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
     },
+  },
+  {
+    company: 'very very spaceship',
+    title: '软件工程师',
+    logo: vvsLogo,
+    start: '2018',
+    end: '2020',
+  },
+  {
+    company: '8ninths Inc.',
+    title: 'AR & 全栈工程师',
+    logo: eightNinthsLogo,
+    start: '2017',
+    end: '2018',
+  },
+  {
+    company: 'Abletive',
+    title: '创始人',
+    logo: abletiveLogo,
+    start: '2014',
+    end: '2016',
   },
 ]
 
