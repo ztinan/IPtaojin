@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
     template: '%s | 嘲讽南北',
-    default: seo.title,
+    default: 嘲讽南北,
   },
   description: seo.description,
   keywords: '嘲讽南北,IP淘金,专利代理师,法律职业资格,知识产权,IPMS备考',
