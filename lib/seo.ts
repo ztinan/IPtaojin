@@ -1,10 +1,10 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: '嘲讽南北 | 专利代理师、律师资格、中级知识产权师、IPMS资格',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我是嘲讽南北，一名专利代理师。专注于知识产权领域的法律服务，致力于为客户保护和实现其创新成果的价值。',
   url: new URL(
     process.env.NODE_ENV === 'production'
       ? 'https://cali.so'
       : 'http://localhost:3000'
   ),
-} as const
+} as const;
