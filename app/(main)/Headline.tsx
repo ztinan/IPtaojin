@@ -80,10 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 ，
-          <PeekabooLink href="https://w2991phbyb.feishu.cn/wiki/H3rbwnh2cixGXWksfAPc4DBgnki?from=from_copylink">嘲讽南北</PeekabooLink>
+          我是
+          <PeekabooLink href="https://w2991phbyb.feishu.cn/wiki/H3rbwnh2cixGXWksfAPc4DBgnki?from=from_copylink">嘲讽南北</PeekabooLink>，
           专利代理师，追求低容错率，精密、严谨、高效的逻辑闭环。
-          极度渴望成功，愿付非凡代价。
+          事无好坏，仅是存在。
         </Balancer>
       </motion.p>
       <motion.div
